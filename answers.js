@@ -46,10 +46,26 @@ const plantee = ["Plantee", "plant",  5000 , "Mordor"]
 const porgee = ["Porgee", "Porg", 186, "Ahch-To"]
 const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
 
+// changing Plantee's birthda
+plantee[2] = plantee[2] + 1;
+console.log(plantee[2])
+
+// changing wolfy's hometown
+wolfy[3] = "Gotham City"
+console.log(wolfy[3])
+
+// give D'Art second hometown
+dart.push("Hawkins")
+console.log(dart)
+
+// Porgee changing Wolfy's name to Gameboy
+wolfy[0] = "Gameboy"
+console.log(wolfy)
 
 ////////////////////////////////
 // Yell at the Ninja Turtles
 ////////////////////////////////
+
 
 
 ////////////////////////////////
