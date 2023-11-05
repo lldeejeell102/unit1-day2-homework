@@ -17,19 +17,26 @@ for (let i=0; i<201; i+=2){
 }
 
 ////////////////////////////////
-// Fizz Buzz                            RECHECK THIS SOLUTION
+// Fizz Buzz                            
 ////////////////////////////////
-/*
-for (let i=1; i<101; i++){
-    if (i % 3 === 0){
+
+//1. Write a javascript application that logs all numbers from 1 - 100.
+for (let i = 1; i <= 100; i++){
+    //2. If a number is divisible by 3 log "Fizz" instead of the number.
+    if(i % 3 === 0){
         console.log("Fizz")
-    }else if(i % 5 === 0){
+//3. If a number is divisible by 5 log "Buzz" instead of the number.
+    } else if(i % 5 === 0){
         console.log("Buzz")
-        }else if(i % 3 || 5 === 0){
-            console.log("FizzBuzz")
+//4. If a number is divisible by 3 and 5 log "FizzBuzz" instead of the number.
+    } else if(i % 3 === 0 && i % 5 === 0){
+        console.log("FizzBuzz")
+    } else {
+        console.log(i)
     }
+    
 }
-*/
+
 ////////////////////////////////
 // Wild Wild Life
 ////////////////////////////////
