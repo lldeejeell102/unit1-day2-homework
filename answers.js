@@ -65,7 +65,11 @@ console.log(wolfy)
 ////////////////////////////////
 // Yell at the Ninja Turtles
 ////////////////////////////////
-
+const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"]
+for (ninjaTurtle of ninjaTurtles){
+    const upperCastNames = ninjaTurtle.toUpperCase
+    console.log(ninjaTurtle)
+}
 
 
 ////////////////////////////////
