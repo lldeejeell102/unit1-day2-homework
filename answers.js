@@ -75,13 +75,63 @@ for (ninjaTurtle of ninjaTurtles){
 ////////////////////////////////
 // Methods, Revisited
 ////////////////////////////////
+const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+console.log(favMovies[8])
+
+favMovies.sort()
+console.log(favMovies)
+// 1. It altered the array to be sorted by alpha order
+
+favMovies.pop();
+console.log(favMovies)
+// 2. removed movie title at the end `Volver`
+
+favMovies.push("Guardians of the Galaxy")
+console.log(favMovies)
+// 3. added in Guardians of the Galaxy to the end
+
+favMovies.reverse()
+console.log(favMovies)
+// 4. reversed
+
+favMovies.shift()
+console.log(favMovies)
+// 5. removed the first variable
+
+favMovies.unshift("Guardians of the Galaxy")
+console.log(favMovies)
+// 6. adds Guardians of the Galaxy to the beginning
+
+favMovies.splice(favMovies.indexOf("Django Unchained"),1,"Avatar")
+console.log(favMovies)
+// 7. replaced Django Unchained to Avatar -- used .indexOf function to find the index automatically
+
+
+console.log(favMovies.slice([favMovies.length/2]))
+
+// 8. slice the last half of the array
+
+
+let x = favMovies.slice([favMovies.length/2])
+console.log(x)
+// 9. store the value of your slice in a variable, console.log it
+
+console.log(x)
+// 10. final result. 
 
 
 ////////////////////////////////
 // Where is Waldo
 ////////////////////////////////
+/*
+const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+                    ["Lucinda", "Jacc", "Neff", "Snoop"],
+                    ["Petunia", ["Baked Goods", "Waldo"]]];
 
+whereIsWaldo.splice(1,1);
 
+console.log(whereIsWaldo);
+*/
 ////////////////////////////////
 //  Excited Kitten
 ////////////////////////////////
