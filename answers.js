@@ -133,12 +133,29 @@ whereIsWaldo[1].splice(2,1,"No One")
 console.log(whereIsWaldo[2][1][1]);
 
 
-
 ////////////////////////////////
 //  Excited Kitten
 ////////////////////////////////
+
+
+// HINT: create an array with responses
+const talkingPoints = ["...human...why you taking pictures of me?...", "...the catnip made me do it...", "...why does the red dot always get away..."]
+
 // for a loop that goes for 20 times
-//pring out "Love me, pet me! HSSSSSS!"
+for (i = 1; i <= 20; i++){
+    // if statement for every even number
+    if(i % 2 === 0){
+        // random number generator
+        // multiple by lenght of array (hence # of responses)
+        //print out the random response
+        console.log(talkingPoints[Math.round(Math.random()*(talkingPoints.length-1))])
+    }else {
+        console.log("Love me, pet me! HSSSSSS!")  
+    }
+}
+
+
+
 
 
 
