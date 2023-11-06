@@ -2,7 +2,7 @@
 // Easy Going
 ////////////////////////////////
 for (let i=1; i<21; i++){
-    if (i=20){
+    if (i === 20){
         console.log("Easy Going answered");
     }
 }
@@ -123,18 +123,23 @@ console.log(x)
 ////////////////////////////////
 // Where is Waldo
 ////////////////////////////////
-/*
+
 const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
                     ["Lucinda", "Jacc", "Neff", "Snoop"],
                     ["Petunia", ["Baked Goods", "Waldo"]]];
 
 whereIsWaldo.splice(1,1);
+whereIsWaldo[1].splice(2,1,"No One")
+console.log(whereIsWaldo[2][1][1]);
 
-console.log(whereIsWaldo);
-*/
+
+
 ////////////////////////////////
 //  Excited Kitten
 ////////////////////////////////
+// for a loop that goes for 20 times
+//pring out "Love me, pet me! HSSSSSS!"
+
 
 
 ////////////////////////////////
