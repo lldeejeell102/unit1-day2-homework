@@ -70,8 +70,8 @@ console.log(wolfy)
 ////////////////////////////////
 const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"]
 for (ninjaTurtle of ninjaTurtles){
-    const upperCastNames = ninjaTurtle.toUpperCase
-    console.log(ninjaTurtle)
+    const upperCaseNames = ninjaTurtle.toUpperCase()
+    console.log(upperCaseNames)
 }
 
 
