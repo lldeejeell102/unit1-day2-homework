@@ -1,10 +1,12 @@
 ////////////////////////////////
 // Easy Going
 ////////////////////////////////
-for (let i=1; i<21; i++){
+for (let i=1; i<=20; i++){
+    console.log(i)
     if (i === 20){
-        console.log("Easy Going answered");
+        console.log("Easy Going answered")
     }
+    
 }
 
 ////////////////////////////////
