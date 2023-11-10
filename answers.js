@@ -12,7 +12,8 @@ for (let i=1; i<=20; i++){
 ////////////////////////////////
 // Get Even
 ////////////////////////////////
-for (let i=0; i<201; i+=2){
+for (let i=0; i<=200; i+=2){
+    console.log(i)
     if (i === 200){
         console.log("Get Even answered");
     }
@@ -48,9 +49,9 @@ const plantee = ["Plantee", "plant",  5000 , "Mordor"]
 const porgee = ["Porgee", "Porg", 186, "Ahch-To"]
 const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
 
-// changing Plantee's birthda
-plantee[2] = plantee[2] + 1;
-console.log(plantee[2])
+// changing Plantee's birthday
+plantee[2]++;
+console.log(plantee[2]);
 
 // changing wolfy's hometown
 wolfy[3] = "Gotham City"
