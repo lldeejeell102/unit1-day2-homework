@@ -215,7 +215,14 @@ const kristynsCloset = [
     ]
   ];
   
+
+  // It looks like I'm moving the string instead of the array element itself which also creates another arry within Thom's accessories. 
+  // I'm not sure if this is the correct way to do this.
   const kristynsShoe = kristynsCloset.slice(0,1);
   console.log(kristynsShoe)
   thomsCloset[2].push(kristynsShoe)
-  console.log(thomsCloset[2])
+  console.log(thomsCloset)
+
+  console.log("Kristyn will wear " + kristynsCloset[Math.floor(Math.random()*kristynsCloset.length)] + ", " + kristynsCloset[Math.floor(Math.random()*kristynsCloset.length)] + ", and " + kristynsCloset[Math.floor(Math.random()*kristynsCloset.length)])
+  console.log("Thom will wear " + thomsCloset[Math.floor(Math.random()*thomsCloset.length)] + ", " + thomsCloset[Math.floor(Math.random()*thomsCloset.length)] + ", and " + thomsCloset[Math.floor(Math.random()*thomsCloset.length)])
+  
